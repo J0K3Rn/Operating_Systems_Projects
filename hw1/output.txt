@@ -1,0 +1,936 @@
+ARRIVAL event for process 3 at time 0 ms.
+Process 3 starts at time 0 ms
+Process Table:
+There are no active processes.
+Process 3 requests a core at time 0 ms for 100 ms
+Process 3 will release a core at time 100 ms.
+ARRIVAL event for process 5 at time 3 ms.
+Process 5 starts at time 3 ms
+Process Table:
+Process 3 is RUNNING
+ARRIVAL event for process 7 at time 5 ms.
+Process 7 starts at time 5 ms
+Process Table:
+Process 3 is RUNNING
+Process 5 is READY
+ARRIVAL event for process 9 at time 8 ms.
+Process 9 starts at time 8 ms
+Process Table:
+Process 3 is RUNNING
+Process 5 is READY
+Process 7 is READY
+ARRIVAL event for process 11 at time 13 ms.
+Process 11 starts at time 13 ms
+Process Table:
+Process 3 is RUNNING
+Process 5 is READY
+Process 7 is READY
+Process 9 is READY
+CORE completion event for process 3 at time 100 ms
+Process 5 requests a core at time 100 ms for 120 ms
+Process 5 will relase a core at time 220 ms.
+Process 3 requests SSD access at time 100 ms for 0 ms.
+Process 3 will release the SSD at time 100 ms.
+SSD completion event for process 3 at time 100 ms.
+Process 3 requests a core at time 100 ms for 80 ms
+Process 3 must wait for a core.
+NI Queue now contains 4 process(es) waiting for a core.
+CORE completion event for process 5 at time 220 ms
+Process 7 requests a core at time 220 ms for 120 ms
+Process 7 will relase a core at time 340 ms.
+Process 5 requests SSD access at time 220 ms for 0 ms.
+Process 5 will release the SSD at time 220 ms.
+SSD completion event for process 5 at time 220 ms.
+Process 5 requests a core at time 220 ms for 60 ms
+Process 5 must wait for a core.
+NI Queue now contains 4 process(es) waiting for a core.
+CORE completion event for process 7 at time 340 ms
+Process 9 requests a core at time 340 ms for 100 ms
+Process 9 will relase a core at time 440 ms.
+Process 7 requests SSD access at time 340 ms for 0 ms.
+Process 7 will release the SSD at time 340 ms.
+SSD completion event for process 7 at time 340 ms.
+Process 7 requests a core at time 340 ms for 60 ms
+Process 7 must wait for a core.
+NI Queue now contains 4 process(es) waiting for a core.
+CORE completion event for process 9 at time 440 ms
+Process 11 requests a core at time 440 ms for 120 ms
+Process 11 will relase a core at time 560 ms.
+Process 9 requests SSD access at time 440 ms for 0 ms.
+Process 9 will release the SSD at time 440 ms.
+SSD completion event for process 9 at time 440 ms.
+Process 9 requests a core at time 440 ms for 80 ms
+Process 9 must wait for a core.
+NI Queue now contains 4 process(es) waiting for a core.
+CORE completion event for process 11 at time 560 ms
+Process 3 requests a core at time 560 ms for 80 ms
+Process 3 will relase a core at time 640 ms.
+Process 11 requests SSD access at time 560 ms for 0 ms.
+Process 11 will release the SSD at time 560 ms.
+SSD completion event for process 11 at time 560 ms.
+Process 11 requests a core at time 560 ms for 60 ms
+Process 11 must wait for a core.
+NI Queue now contains 4 process(es) waiting for a core.
+CORE completion event for process 3 at time 640 ms
+Process 5 requests a core at time 640 ms for 60 ms
+Process 5 will relase a core at time 700 ms.
+Process 3 requests SSD access at time 640 ms for 0 ms.
+Process 3 will release the SSD at time 640 ms.
+SSD completion event for process 3 at time 640 ms.
+Process 3 requests a core at time 640 ms for 40 ms
+Process 3 must wait for a core.
+NI Queue now contains 4 process(es) waiting for a core.
+CORE completion event for process 5 at time 700 ms
+Process 7 requests a core at time 700 ms for 60 ms
+Process 7 will relase a core at time 760 ms.
+Process 5 requests SSD access at time 700 ms for 0 ms.
+Process 5 will release the SSD at time 700 ms.
+SSD completion event for process 5 at time 700 ms.
+Process 5 requests a core at time 700 ms for 20 ms
+Process 5 must wait for a core.
+NI Queue now contains 4 process(es) waiting for a core.
+CORE completion event for process 7 at time 760 ms
+Process 9 requests a core at time 760 ms for 80 ms
+Process 9 will relase a core at time 840 ms.
+Process 7 requests SSD access at time 760 ms for 0 ms.
+Process 7 will release the SSD at time 760 ms.
+SSD completion event for process 7 at time 760 ms.
+Process 7 requests a core at time 760 ms for 20 ms
+Process 7 must wait for a core.
+NI Queue now contains 4 process(es) waiting for a core.
+CORE completion event for process 9 at time 840 ms
+Process 11 requests a core at time 840 ms for 60 ms
+Process 11 will relase a core at time 900 ms.
+Process 9 requests SSD access at time 840 ms for 0 ms.
+Process 9 will release the SSD at time 840 ms.
+SSD completion event for process 9 at time 840 ms.
+Process 9 requests a core at time 840 ms for 40 ms
+Process 9 must wait for a core.
+NI Queue now contains 4 process(es) waiting for a core.
+CORE completion event for process 11 at time 900 ms
+Process 3 requests a core at time 900 ms for 40 ms
+Process 3 will relase a core at time 940 ms.
+Process 11 requests SSD access at time 900 ms for 0 ms.
+Process 11 will release the SSD at time 900 ms.
+SSD completion event for process 11 at time 900 ms.
+Process 11 requests a core at time 900 ms for 20 ms
+Process 11 must wait for a core.
+NI Queue now contains 4 process(es) waiting for a core.
+CORE completion event for process 3 at time 940 ms
+Process 5 requests a core at time 940 ms for 20 ms
+Process 5 will relase a core at time 960 ms.
+Process 3 requests SSD access at time 940 ms for 0 ms.
+Process 3 will release the SSD at time 940 ms.
+SSD completion event for process 3 at time 940 ms.
+Process 3 requests a core at time 940 ms for 80 ms
+Process 3 must wait for a core.
+NI Queue now contains 4 process(es) waiting for a core.
+CORE completion event for process 5 at time 960 ms
+Process 7 requests a core at time 960 ms for 20 ms
+Process 7 will relase a core at time 980 ms.
+Process 5 requests SSD access at time 960 ms for 0 ms.
+Process 5 will release the SSD at time 960 ms.
+SSD completion event for process 5 at time 960 ms.
+Process 5 requests a core at time 960 ms for 30 ms
+Process 5 must wait for a core.
+NI Queue now contains 4 process(es) waiting for a core.
+CORE completion event for process 7 at time 980 ms
+Process 9 requests a core at time 980 ms for 40 ms
+Process 9 will relase a core at time 1020 ms.
+Process 7 requests SSD access at time 980 ms for 0 ms.
+Process 7 will release the SSD at time 980 ms.
+SSD completion event for process 7 at time 980 ms.
+Process 7 requests a core at time 980 ms for 30 ms
+Process 7 must wait for a core.
+NI Queue now contains 4 process(es) waiting for a core.
+CORE completion event for process 9 at time 1020 ms
+Process 11 requests a core at time 1020 ms for 20 ms
+Process 11 will relase a core at time 1040 ms.
+Process 9 requests SSD access at time 1020 ms for 0 ms.
+Process 9 will release the SSD at time 1020 ms.
+SSD completion event for process 9 at time 1020 ms.
+Process 9 requests a core at time 1020 ms for 70 ms
+Process 9 must wait for a core.
+NI Queue now contains 4 process(es) waiting for a core.
+CORE completion event for process 11 at time 1040 ms
+Process 3 requests a core at time 1040 ms for 80 ms
+Process 3 will relase a core at time 1120 ms.
+Process 11 requests SSD access at time 1040 ms for 0 ms.
+Process 11 will release the SSD at time 1040 ms.
+SSD completion event for process 11 at time 1040 ms.
+Process 11 requests a core at time 1040 ms for 30 ms
+Process 11 must wait for a core.
+NI Queue now contains 4 process(es) waiting for a core.
+CORE completion event for process 3 at time 1120 ms
+Process 5 requests a core at time 1120 ms for 30 ms
+Process 5 will relase a core at time 1150 ms.
+Process 3 requests SSD access at time 1120 ms for 0 ms.
+Process 3 will release the SSD at time 1120 ms.
+SSD completion event for process 3 at time 1120 ms.
+Process 3 requests a core at time 1120 ms for 40 ms
+Process 3 must wait for a core.
+NI Queue now contains 4 process(es) waiting for a core.
+CORE completion event for process 5 at time 1150 ms
+Process 7 requests a core at time 1150 ms for 30 ms
+Process 7 will relase a core at time 1180 ms.
+Process 5 requests SSD access at time 1150 ms for 0 ms.
+Process 5 will release the SSD at time 1150 ms.
+SSD completion event for process 5 at time 1150 ms.
+Process 5 requests a core at time 1150 ms for 80 ms
+Process 5 must wait for a core.
+NI Queue now contains 4 process(es) waiting for a core.
+CORE completion event for process 7 at time 1180 ms
+Process 9 requests a core at time 1180 ms for 70 ms
+Process 9 will relase a core at time 1250 ms.
+Process 7 terminates at time 1180 ms.
+Process Table:
+Process 3 is READY
+Process 5 is READY
+Process 7 is TERMINATED
+Process 9 is RUNNING
+Process 11 is READY
+CORE completion event for process 9 at time 1250 ms
+Process 11 requests a core at time 1250 ms for 30 ms
+Process 11 will relase a core at time 1280 ms.
+Process 9 requests SSD access at time 1250 ms for 0 ms.
+Process 9 will release the SSD at time 1250 ms.
+SSD completion event for process 9 at time 1250 ms.
+Process 9 requests a core at time 1250 ms for 80 ms
+Process 9 must wait for a core.
+NI Queue now contains 3 process(es) waiting for a core.
+CORE completion event for process 11 at time 1280 ms
+Process 3 requests a core at time 1280 ms for 40 ms
+Process 3 will relase a core at time 1320 ms.
+Process 11 requests SSD access at time 1280 ms for 0 ms.
+Process 11 will release the SSD at time 1280 ms.
+SSD completion event for process 11 at time 1280 ms.
+Process 11 requests a core at time 1280 ms for 80 ms
+Process 11 must wait for a core.
+NI Queue now contains 3 process(es) waiting for a core.
+CORE completion event for process 3 at time 1320 ms
+Process 5 requests a core at time 1320 ms for 80 ms
+Process 5 will relase a core at time 1400 ms.
+Process 3 requests SSD access at time 1320 ms for 0 ms.
+Process 3 will release the SSD at time 1320 ms.
+SSD completion event for process 3 at time 1320 ms.
+Process 3 requests a core at time 1320 ms for 90 ms
+Process 3 must wait for a core.
+NI Queue now contains 3 process(es) waiting for a core.
+CORE completion event for process 5 at time 1400 ms
+Process 9 requests a core at time 1400 ms for 80 ms
+Process 9 will relase a core at time 1480 ms.
+Process 5 requests SSD access at time 1400 ms for 0 ms.
+Process 5 will release the SSD at time 1400 ms.
+SSD completion event for process 5 at time 1400 ms.
+Process 5 requests a core at time 1400 ms for 80 ms
+Process 5 must wait for a core.
+NI Queue now contains 3 process(es) waiting for a core.
+CORE completion event for process 9 at time 1480 ms
+Process 11 requests a core at time 1480 ms for 80 ms
+Process 11 will relase a core at time 1560 ms.
+Process 9 requests SSD access at time 1480 ms for 0 ms.
+Process 9 will release the SSD at time 1480 ms.
+SSD completion event for process 9 at time 1480 ms.
+Process 9 requests a core at time 1480 ms for 40 ms
+Process 9 must wait for a core.
+NI Queue now contains 3 process(es) waiting for a core.
+CORE completion event for process 11 at time 1560 ms
+Process 3 requests a core at time 1560 ms for 90 ms
+Process 3 will relase a core at time 1650 ms.
+Process 11 requests SSD access at time 1560 ms for 0 ms.
+Process 11 will release the SSD at time 1560 ms.
+SSD completion event for process 11 at time 1560 ms.
+Process 11 requests a core at time 1560 ms for 60 ms
+Process 11 must wait for a core.
+NI Queue now contains 3 process(es) waiting for a core.
+CORE completion event for process 3 at time 1650 ms
+Process 5 requests a core at time 1650 ms for 80 ms
+Process 5 will relase a core at time 1730 ms.
+Process 3 requests SSD access at time 1650 ms for 1 ms.
+Process 3 will release the SSD at time 1651 ms.
+SSD completion event for process 3 at time 1651 ms.
+Process 3 requests a core at time 1651 ms for 100 ms
+Process 3 must wait for a core.
+NI Queue now contains 3 process(es) waiting for a core.
+CORE completion event for process 5 at time 1730 ms
+Process 9 requests a core at time 1730 ms for 40 ms
+Process 9 will relase a core at time 1770 ms.
+Process 5 requests SSD access at time 1730 ms for 0 ms.
+Process 5 will release the SSD at time 1730 ms.
+SSD completion event for process 5 at time 1730 ms.
+Process 5 requests a core at time 1730 ms for 40 ms
+Process 5 must wait for a core.
+NI Queue now contains 3 process(es) waiting for a core.
+CORE completion event for process 9 at time 1770 ms
+Process 11 requests a core at time 1770 ms for 60 ms
+Process 11 will relase a core at time 1830 ms.
+Process 9 requests SSD access at time 1770 ms for 0 ms.
+Process 9 will release the SSD at time 1770 ms.
+SSD completion event for process 9 at time 1770 ms.
+Process 9 requests a core at time 1770 ms for 90 ms
+Process 9 must wait for a core.
+NI Queue now contains 3 process(es) waiting for a core.
+CORE completion event for process 11 at time 1830 ms
+Process 3 requests a core at time 1830 ms for 100 ms
+Process 3 will relase a core at time 1930 ms.
+Process 11 requests SSD access at time 1830 ms for 0 ms.
+Process 11 will release the SSD at time 1830 ms.
+SSD completion event for process 11 at time 1830 ms.
+Process 11 requests a core at time 1830 ms for 20 ms
+Process 11 must wait for a core.
+NI Queue now contains 3 process(es) waiting for a core.
+CORE completion event for process 3 at time 1930 ms
+Process 5 requests a core at time 1930 ms for 40 ms
+Process 5 will relase a core at time 1970 ms.
+Process 3 will interact with a user at time 1930 ms for 5000 ms.
+CORE completion event for process 5 at time 1970 ms
+Process 9 requests a core at time 1970 ms for 90 ms
+Process 9 will relase a core at time 2060 ms.
+Process 5 requests SSD access at time 1970 ms for 0 ms.
+Process 5 will release the SSD at time 1970 ms.
+SSD completion event for process 5 at time 1970 ms.
+Process 5 requests a core at time 1970 ms for 80 ms
+Process 5 must wait for a core.
+NI Queue now contains 2 process(es) waiting for a core.
+CORE completion event for process 9 at time 2060 ms
+Process 11 requests a core at time 2060 ms for 20 ms
+Process 11 will relase a core at time 2080 ms.
+Process 9 requests SSD access at time 2060 ms for 0 ms.
+Process 9 will release the SSD at time 2060 ms.
+SSD completion event for process 9 at time 2060 ms.
+Process 9 requests a core at time 2060 ms for 80 ms
+Process 9 must wait for a core.
+NI Queue now contains 2 process(es) waiting for a core.
+CORE completion event for process 11 at time 2080 ms
+Process 5 requests a core at time 2080 ms for 80 ms
+Process 5 will relase a core at time 2160 ms.
+Process 11 requests SSD access at time 2080 ms for 0 ms.
+Process 11 will release the SSD at time 2080 ms.
+SSD completion event for process 11 at time 2080 ms.
+Process 11 requests a core at time 2080 ms for 30 ms
+Process 11 must wait for a core.
+NI Queue now contains 2 process(es) waiting for a core.
+CORE completion event for process 5 at time 2160 ms
+Process 9 requests a core at time 2160 ms for 80 ms
+Process 9 will relase a core at time 2240 ms.
+Process 5 requests SSD access at time 2160 ms for 0 ms.
+Process 5 will release the SSD at time 2160 ms.
+SSD completion event for process 5 at time 2160 ms.
+Process 5 requests a core at time 2160 ms for 40 ms
+Process 5 must wait for a core.
+NI Queue now contains 2 process(es) waiting for a core.
+CORE completion event for process 9 at time 2240 ms
+Process 11 requests a core at time 2240 ms for 30 ms
+Process 11 will relase a core at time 2270 ms.
+Process 9 requests SSD access at time 2240 ms for 0 ms.
+Process 9 will release the SSD at time 2240 ms.
+SSD completion event for process 9 at time 2240 ms.
+Process 9 requests a core at time 2240 ms for 40 ms
+Process 9 must wait for a core.
+NI Queue now contains 2 process(es) waiting for a core.
+CORE completion event for process 11 at time 2270 ms
+Process 5 requests a core at time 2270 ms for 40 ms
+Process 5 will relase a core at time 2310 ms.
+Process 11 requests SSD access at time 2270 ms for 0 ms.
+Process 11 will release the SSD at time 2270 ms.
+SSD completion event for process 11 at time 2270 ms.
+Process 11 requests a core at time 2270 ms for 80 ms
+Process 11 must wait for a core.
+NI Queue now contains 2 process(es) waiting for a core.
+CORE completion event for process 5 at time 2310 ms
+Process 9 requests a core at time 2310 ms for 40 ms
+Process 9 will relase a core at time 2350 ms.
+Process 5 requests SSD access at time 2310 ms for 0 ms.
+Process 5 will release the SSD at time 2310 ms.
+SSD completion event for process 5 at time 2310 ms.
+Process 5 requests a core at time 2310 ms for 90 ms
+Process 5 must wait for a core.
+NI Queue now contains 2 process(es) waiting for a core.
+CORE completion event for process 9 at time 2350 ms
+Process 11 requests a core at time 2350 ms for 80 ms
+Process 11 will relase a core at time 2430 ms.
+Process 9 requests SSD access at time 2350 ms for 0 ms.
+Process 9 will release the SSD at time 2350 ms.
+SSD completion event for process 9 at time 2350 ms.
+Process 9 requests a core at time 2350 ms for 90 ms
+Process 9 must wait for a core.
+NI Queue now contains 2 process(es) waiting for a core.
+CORE completion event for process 11 at time 2430 ms
+Process 5 requests a core at time 2430 ms for 90 ms
+Process 5 will relase a core at time 2520 ms.
+Process 11 requests SSD access at time 2430 ms for 0 ms.
+Process 11 will release the SSD at time 2430 ms.
+SSD completion event for process 11 at time 2430 ms.
+Process 11 requests a core at time 2430 ms for 80 ms
+Process 11 must wait for a core.
+NI Queue now contains 2 process(es) waiting for a core.
+CORE completion event for process 5 at time 2520 ms
+Process 9 requests a core at time 2520 ms for 90 ms
+Process 9 will relase a core at time 2610 ms.
+Process 5 requests SSD access at time 2520 ms for 0 ms.
+Process 5 will release the SSD at time 2520 ms.
+SSD completion event for process 5 at time 2520 ms.
+Process 5 requests a core at time 2520 ms for 80 ms
+Process 5 must wait for a core.
+NI Queue now contains 2 process(es) waiting for a core.
+CORE completion event for process 9 at time 2610 ms
+Process 11 requests a core at time 2610 ms for 80 ms
+Process 11 will relase a core at time 2690 ms.
+Process 9 requests SSD access at time 2610 ms for 1 ms.
+Process 9 will release the SSD at time 2611 ms.
+SSD completion event for process 9 at time 2611 ms.
+Process 9 requests a core at time 2611 ms for 110 ms
+Process 9 must wait for a core.
+NI Queue now contains 2 process(es) waiting for a core.
+CORE completion event for process 11 at time 2690 ms
+Process 5 requests a core at time 2690 ms for 80 ms
+Process 5 will relase a core at time 2770 ms.
+Process 11 requests SSD access at time 2690 ms for 0 ms.
+Process 11 will release the SSD at time 2690 ms.
+SSD completion event for process 11 at time 2690 ms.
+Process 11 requests a core at time 2690 ms for 40 ms
+Process 11 must wait for a core.
+NI Queue now contains 2 process(es) waiting for a core.
+CORE completion event for process 5 at time 2770 ms
+Process 9 requests a core at time 2770 ms for 110 ms
+Process 9 will relase a core at time 2880 ms.
+Process 5 requests SSD access at time 2770 ms for 0 ms.
+Process 5 will release the SSD at time 2770 ms.
+SSD completion event for process 5 at time 2770 ms.
+Process 5 requests a core at time 2770 ms for 40 ms
+Process 5 must wait for a core.
+NI Queue now contains 2 process(es) waiting for a core.
+CORE completion event for process 9 at time 2880 ms
+Process 11 requests a core at time 2880 ms for 40 ms
+Process 11 will relase a core at time 2920 ms.
+Process 9 requests SSD access at time 2880 ms for 0 ms.
+Process 9 will release the SSD at time 2880 ms.
+SSD completion event for process 9 at time 2880 ms.
+Process 9 requests a core at time 2880 ms for 40 ms
+Process 9 must wait for a core.
+NI Queue now contains 2 process(es) waiting for a core.
+CORE completion event for process 11 at time 2920 ms
+Process 5 requests a core at time 2920 ms for 40 ms
+Process 5 will relase a core at time 2960 ms.
+Process 11 requests SSD access at time 2920 ms for 0 ms.
+Process 11 will release the SSD at time 2920 ms.
+SSD completion event for process 11 at time 2920 ms.
+Process 11 requests a core at time 2920 ms for 80 ms
+Process 11 must wait for a core.
+NI Queue now contains 2 process(es) waiting for a core.
+CORE completion event for process 5 at time 2960 ms
+Process 9 requests a core at time 2960 ms for 40 ms
+Process 9 will relase a core at time 3000 ms.
+Process 5 requests SSD access at time 2960 ms for 0 ms.
+Process 5 will release the SSD at time 2960 ms.
+SSD completion event for process 5 at time 2960 ms.
+Process 5 requests a core at time 2960 ms for 90 ms
+Process 5 must wait for a core.
+NI Queue now contains 2 process(es) waiting for a core.
+CORE completion event for process 9 at time 3000 ms
+Process 11 requests a core at time 3000 ms for 80 ms
+Process 11 will relase a core at time 3080 ms.
+Process 9 requests SSD access at time 3000 ms for 0 ms.
+Process 9 will release the SSD at time 3000 ms.
+SSD completion event for process 9 at time 3000 ms.
+Process 9 requests a core at time 3000 ms for 90 ms
+Process 9 must wait for a core.
+NI Queue now contains 2 process(es) waiting for a core.
+CORE completion event for process 11 at time 3080 ms
+Process 5 requests a core at time 3080 ms for 90 ms
+Process 5 will relase a core at time 3170 ms.
+Process 11 requests SSD access at time 3080 ms for 0 ms.
+Process 11 will release the SSD at time 3080 ms.
+SSD completion event for process 11 at time 3080 ms.
+Process 11 requests a core at time 3080 ms for 40 ms
+Process 11 must wait for a core.
+NI Queue now contains 2 process(es) waiting for a core.
+CORE completion event for process 5 at time 3170 ms
+Process 9 requests a core at time 3170 ms for 90 ms
+Process 9 will relase a core at time 3260 ms.
+Process 5 requests SSD access at time 3170 ms for 1 ms.
+Process 5 will release the SSD at time 3171 ms.
+SSD completion event for process 5 at time 3171 ms.
+Process 5 requests a core at time 3171 ms for 100 ms
+Process 5 must wait for a core.
+NI Queue now contains 2 process(es) waiting for a core.
+CORE completion event for process 9 at time 3260 ms
+Process 11 requests a core at time 3260 ms for 40 ms
+Process 11 will relase a core at time 3300 ms.
+Process 9 requests SSD access at time 3260 ms for 1 ms.
+Process 9 will release the SSD at time 3261 ms.
+SSD completion event for process 9 at time 3261 ms.
+Process 9 requests a core at time 3261 ms for 100 ms
+Process 9 must wait for a core.
+NI Queue now contains 2 process(es) waiting for a core.
+CORE completion event for process 11 at time 3300 ms
+Process 5 requests a core at time 3300 ms for 100 ms
+Process 5 will relase a core at time 3400 ms.
+Process 11 requests SSD access at time 3300 ms for 0 ms.
+Process 11 will release the SSD at time 3300 ms.
+SSD completion event for process 11 at time 3300 ms.
+Process 11 requests a core at time 3300 ms for 90 ms
+Process 11 must wait for a core.
+NI Queue now contains 2 process(es) waiting for a core.
+CORE completion event for process 5 at time 3400 ms
+Process 9 requests a core at time 3400 ms for 100 ms
+Process 9 will relase a core at time 3500 ms.
+Process 5 will interact with a user at time 3400 ms for 5000 ms.
+CORE completion event for process 9 at time 3500 ms
+Process 11 requests a core at time 3500 ms for 90 ms
+Process 11 will relase a core at time 3590 ms.
+Process 9 will interact with a user at time 3500 ms for 3000 ms.
+CORE completion event for process 11 at time 3590 ms
+Process 11 requests SSD access at time 3590 ms for 0 ms.
+Process 11 will release the SSD at time 3590 ms.
+SSD completion event for process 11 at time 3590 ms.
+Process 11 requests a core at time 3590 ms for 80 ms
+Process 11 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 11 requests a core at time 3591 ms for 80 ms
+Process 11 will release a core at time 3671 ms.
+CORE completion event for process 11 at time 3591 ms
+Process 11 requests SSD access at time 3591 ms for 0 ms.
+Process 11 will release the SSD at time 3591 ms.
+SSD completion event for process 11 at time 3591 ms.
+Process 11 requests a core at time 3591 ms for 40 ms
+Process 11 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 11 requests a core at time 3592 ms for 40 ms
+Process 11 will release a core at time 3632 ms.
+CORE completion event for process 11 at time 3592 ms
+Process 11 requests SSD access at time 3592 ms for 0 ms.
+Process 11 will release the SSD at time 3592 ms.
+SSD completion event for process 11 at time 3592 ms.
+Process 11 requests a core at time 3592 ms for 90 ms
+Process 11 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 11 requests a core at time 3593 ms for 90 ms
+Process 11 will release a core at time 3683 ms.
+CORE completion event for process 11 at time 3593 ms
+Process 11 requests SSD access at time 3593 ms for 1 ms.
+Process 11 will release the SSD at time 3594 ms.
+SSD completion event for process 11 at time 3594 ms.
+Process 11 requests a core at time 3594 ms for 100 ms
+Process 11 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 11 requests a core at time 3595 ms for 100 ms
+Process 11 will release a core at time 3695 ms.
+CORE completion event for process 11 at time 3595 ms
+Process 11 will interact with a user at time 3595 ms for 5000 ms.
+TTY completion event for process 9 at time 6500 ms.
+Relasing TTY with size 1
+Process 9 requests a core at time 6500 ms for 120 ms
+Process 9 must wait for a core.
+I Queue now contains 1 process(es) waiting for a core.
+Process 9 requests a core at time 6501 ms for 120 ms
+Process 9 will release a core at time 6621 ms.
+CORE completion event for process 9 at time 6501 ms
+Process 9 will interact with a user at time 6501 ms for 2000 ms.
+TTY completion event for process 3 at time 6930 ms.
+Relasing TTY with size 1
+Process 3 requests a core at time 6930 ms for 20 ms
+Process 3 must wait for a core.
+I Queue now contains 1 process(es) waiting for a core.
+Process 3 requests a core at time 6931 ms for 20 ms
+Process 3 will release a core at time 6951 ms.
+CORE completion event for process 3 at time 6931 ms
+Process 3 will interact with a user at time 6931 ms for 5000 ms.
+TTY completion event for process 5 at time 8400 ms.
+Relasing TTY with size 1
+Process 5 requests a core at time 8400 ms for 80 ms
+Process 5 must wait for a core.
+I Queue now contains 1 process(es) waiting for a core.
+Process 5 requests a core at time 8401 ms for 80 ms
+Process 5 will release a core at time 8481 ms.
+CORE completion event for process 5 at time 8401 ms
+Process 5 requests SSD access at time 8401 ms for 0 ms.
+Process 5 will release the SSD at time 8401 ms.
+SSD completion event for process 5 at time 8401 ms.
+Process 5 requests a core at time 8401 ms for 80 ms
+Process 5 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 5 requests a core at time 8402 ms for 80 ms
+Process 5 will release a core at time 8482 ms.
+CORE completion event for process 5 at time 8402 ms
+Process 5 requests SSD access at time 8402 ms for 0 ms.
+Process 5 will release the SSD at time 8402 ms.
+SSD completion event for process 5 at time 8402 ms.
+Process 5 requests a core at time 8402 ms for 40 ms
+Process 5 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 5 requests a core at time 8403 ms for 40 ms
+Process 5 will release a core at time 8443 ms.
+CORE completion event for process 5 at time 8403 ms
+Process 5 requests SSD access at time 8403 ms for 0 ms.
+Process 5 will release the SSD at time 8403 ms.
+SSD completion event for process 5 at time 8403 ms.
+Process 5 requests a core at time 8403 ms for 90 ms
+Process 5 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 5 requests a core at time 8404 ms for 90 ms
+Process 5 will release a core at time 8494 ms.
+CORE completion event for process 5 at time 8404 ms
+Process 5 requests SSD access at time 8404 ms for 1 ms.
+Process 5 will release the SSD at time 8405 ms.
+SSD completion event for process 5 at time 8405 ms.
+Process 5 requests a core at time 8405 ms for 30 ms
+Process 5 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 5 requests a core at time 8406 ms for 30 ms
+Process 5 will release a core at time 8436 ms.
+CORE completion event for process 5 at time 8406 ms
+Process 5 requests SSD access at time 8406 ms for 1 ms.
+Process 5 will release the SSD at time 8407 ms.
+SSD completion event for process 5 at time 8407 ms.
+Process 5 requests a core at time 8407 ms for 20 ms
+Process 5 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 5 requests a core at time 8408 ms for 20 ms
+Process 5 will release a core at time 8428 ms.
+CORE completion event for process 5 at time 8408 ms
+Process 5 requests SSD access at time 8408 ms for 1 ms.
+Process 5 will release the SSD at time 8409 ms.
+SSD completion event for process 5 at time 8409 ms.
+Process 5 requests a core at time 8409 ms for 30 ms
+Process 5 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 5 requests a core at time 8410 ms for 30 ms
+Process 5 will release a core at time 8440 ms.
+CORE completion event for process 5 at time 8410 ms
+Process 5 requests SSD access at time 8410 ms for 1 ms.
+Process 5 will release the SSD at time 8411 ms.
+SSD completion event for process 5 at time 8411 ms.
+Process 5 requests a core at time 8411 ms for 20 ms
+Process 5 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 5 requests a core at time 8412 ms for 20 ms
+Process 5 will release a core at time 8432 ms.
+CORE completion event for process 5 at time 8412 ms
+Process 5 requests SSD access at time 8412 ms for 1 ms.
+Process 5 will release the SSD at time 8413 ms.
+SSD completion event for process 5 at time 8413 ms.
+Process 5 requests a core at time 8413 ms for 30 ms
+Process 5 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 5 requests a core at time 8414 ms for 30 ms
+Process 5 will release a core at time 8444 ms.
+CORE completion event for process 5 at time 8414 ms
+Process 5 requests SSD access at time 8414 ms for 1 ms.
+Process 5 will release the SSD at time 8415 ms.
+SSD completion event for process 5 at time 8415 ms.
+Process 5 requests a core at time 8415 ms for 20 ms
+Process 5 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 5 requests a core at time 8416 ms for 20 ms
+Process 5 will release a core at time 8436 ms.
+CORE completion event for process 5 at time 8416 ms
+Process 5 terminates at time 8416 ms.
+Process Table:
+Process 3 is BLOCKED
+Process 5 is TERMINATED
+Process 9 is BLOCKED
+Process 11 is BLOCKED
+TTY completion event for process 9 at time 8501 ms.
+Relasing TTY with size 1
+Process 9 requests a core at time 8501 ms for 80 ms
+Process 9 must wait for a core.
+I Queue now contains 1 process(es) waiting for a core.
+Process 9 requests a core at time 8502 ms for 80 ms
+Process 9 will release a core at time 8582 ms.
+CORE completion event for process 9 at time 8502 ms
+Process 9 requests SSD access at time 8502 ms for 1 ms.
+Process 9 will release the SSD at time 8503 ms.
+SSD completion event for process 9 at time 8503 ms.
+Process 9 requests a core at time 8503 ms for 30 ms
+Process 9 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 9 requests a core at time 8504 ms for 30 ms
+Process 9 will release a core at time 8534 ms.
+CORE completion event for process 9 at time 8504 ms
+Process 9 requests SSD access at time 8504 ms for 1 ms.
+Process 9 will release the SSD at time 8505 ms.
+SSD completion event for process 9 at time 8505 ms.
+Process 9 requests a core at time 8505 ms for 20 ms
+Process 9 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 9 requests a core at time 8506 ms for 20 ms
+Process 9 will release a core at time 8526 ms.
+CORE completion event for process 9 at time 8506 ms
+Process 9 requests SSD access at time 8506 ms for 1 ms.
+Process 9 will release the SSD at time 8507 ms.
+SSD completion event for process 9 at time 8507 ms.
+Process 9 requests a core at time 8507 ms for 30 ms
+Process 9 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 9 requests a core at time 8508 ms for 30 ms
+Process 9 will release a core at time 8538 ms.
+CORE completion event for process 9 at time 8508 ms
+Process 9 requests SSD access at time 8508 ms for 1 ms.
+Process 9 will release the SSD at time 8509 ms.
+SSD completion event for process 9 at time 8509 ms.
+Process 9 requests a core at time 8509 ms for 20 ms
+Process 9 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 9 requests a core at time 8510 ms for 20 ms
+Process 9 will release a core at time 8530 ms.
+CORE completion event for process 9 at time 8510 ms
+Process 9 requests SSD access at time 8510 ms for 1 ms.
+Process 9 will release the SSD at time 8511 ms.
+SSD completion event for process 9 at time 8511 ms.
+Process 9 requests a core at time 8511 ms for 30 ms
+Process 9 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 9 requests a core at time 8512 ms for 30 ms
+Process 9 will release a core at time 8542 ms.
+CORE completion event for process 9 at time 8512 ms
+Process 9 requests SSD access at time 8512 ms for 1 ms.
+Process 9 will release the SSD at time 8513 ms.
+SSD completion event for process 9 at time 8513 ms.
+Process 9 requests a core at time 8513 ms for 20 ms
+Process 9 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 9 requests a core at time 8514 ms for 20 ms
+Process 9 will release a core at time 8534 ms.
+CORE completion event for process 9 at time 8514 ms
+Process 9 terminates at time 8514 ms.
+Process Table:
+Process 3 is BLOCKED
+Process 9 is TERMINATED
+Process 11 is BLOCKED
+TTY completion event for process 11 at time 8595 ms.
+Relasing TTY with size 1
+Process 11 requests a core at time 8595 ms for 80 ms
+Process 11 must wait for a core.
+I Queue now contains 1 process(es) waiting for a core.
+Process 11 requests a core at time 8596 ms for 80 ms
+Process 11 will release a core at time 8676 ms.
+CORE completion event for process 11 at time 8596 ms
+Process 11 requests SSD access at time 8596 ms for 0 ms.
+Process 11 will release the SSD at time 8596 ms.
+SSD completion event for process 11 at time 8596 ms.
+Process 11 requests a core at time 8596 ms for 80 ms
+Process 11 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 11 requests a core at time 8597 ms for 80 ms
+Process 11 will release a core at time 8677 ms.
+CORE completion event for process 11 at time 8597 ms
+Process 11 requests SSD access at time 8597 ms for 0 ms.
+Process 11 will release the SSD at time 8597 ms.
+SSD completion event for process 11 at time 8597 ms.
+Process 11 requests a core at time 8597 ms for 40 ms
+Process 11 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 11 requests a core at time 8598 ms for 40 ms
+Process 11 will release a core at time 8638 ms.
+CORE completion event for process 11 at time 8598 ms
+Process 11 requests SSD access at time 8598 ms for 0 ms.
+Process 11 will release the SSD at time 8598 ms.
+SSD completion event for process 11 at time 8598 ms.
+Process 11 requests a core at time 8598 ms for 90 ms
+Process 11 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 11 requests a core at time 8599 ms for 90 ms
+Process 11 will release a core at time 8689 ms.
+CORE completion event for process 11 at time 8599 ms
+Process 11 requests SSD access at time 8599 ms for 1 ms.
+Process 11 will release the SSD at time 8600 ms.
+SSD completion event for process 11 at time 8600 ms.
+Process 11 requests a core at time 8600 ms for 30 ms
+Process 11 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 11 requests a core at time 8601 ms for 30 ms
+Process 11 will release a core at time 8631 ms.
+CORE completion event for process 11 at time 8601 ms
+Process 11 requests SSD access at time 8601 ms for 1 ms.
+Process 11 will release the SSD at time 8602 ms.
+SSD completion event for process 11 at time 8602 ms.
+Process 11 requests a core at time 8602 ms for 20 ms
+Process 11 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 11 requests a core at time 8603 ms for 20 ms
+Process 11 will release a core at time 8623 ms.
+CORE completion event for process 11 at time 8603 ms
+Process 11 requests SSD access at time 8603 ms for 1 ms.
+Process 11 will release the SSD at time 8604 ms.
+SSD completion event for process 11 at time 8604 ms.
+Process 11 requests a core at time 8604 ms for 30 ms
+Process 11 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 11 requests a core at time 8605 ms for 30 ms
+Process 11 will release a core at time 8635 ms.
+CORE completion event for process 11 at time 8605 ms
+Process 11 requests SSD access at time 8605 ms for 0 ms.
+Process 11 will release the SSD at time 8605 ms.
+SSD completion event for process 11 at time 8605 ms.
+Process 11 requests a core at time 8605 ms for 90 ms
+Process 11 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 11 requests a core at time 8606 ms for 90 ms
+Process 11 will release a core at time 8696 ms.
+CORE completion event for process 11 at time 8606 ms
+Process 11 requests SSD access at time 8606 ms for 1 ms.
+Process 11 will release the SSD at time 8607 ms.
+SSD completion event for process 11 at time 8607 ms.
+Process 11 requests a core at time 8607 ms for 30 ms
+Process 11 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 11 requests a core at time 8608 ms for 30 ms
+Process 11 will release a core at time 8638 ms.
+CORE completion event for process 11 at time 8608 ms
+Process 11 requests SSD access at time 8608 ms for 1 ms.
+Process 11 will release the SSD at time 8609 ms.
+SSD completion event for process 11 at time 8609 ms.
+Process 11 requests a core at time 8609 ms for 20 ms
+Process 11 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 11 requests a core at time 8610 ms for 20 ms
+Process 11 will release a core at time 8630 ms.
+CORE completion event for process 11 at time 8610 ms
+Process 11 requests SSD access at time 8610 ms for 1 ms.
+Process 11 will release the SSD at time 8611 ms.
+SSD completion event for process 11 at time 8611 ms.
+Process 11 requests a core at time 8611 ms for 30 ms
+Process 11 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 11 requests a core at time 8612 ms for 30 ms
+Process 11 will release a core at time 8642 ms.
+CORE completion event for process 11 at time 8612 ms
+Process 11 requests SSD access at time 8612 ms for 1 ms.
+Process 11 will release the SSD at time 8613 ms.
+SSD completion event for process 11 at time 8613 ms.
+Process 11 requests a core at time 8613 ms for 20 ms
+Process 11 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 11 requests a core at time 8614 ms for 20 ms
+Process 11 will release a core at time 8634 ms.
+CORE completion event for process 11 at time 8614 ms
+Process 11 requests SSD access at time 8614 ms for 1 ms.
+Process 11 will release the SSD at time 8615 ms.
+SSD completion event for process 11 at time 8615 ms.
+Process 11 requests a core at time 8615 ms for 30 ms
+Process 11 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 11 requests a core at time 8616 ms for 30 ms
+Process 11 will release a core at time 8646 ms.
+CORE completion event for process 11 at time 8616 ms
+Process 11 requests SSD access at time 8616 ms for 1 ms.
+Process 11 will release the SSD at time 8617 ms.
+SSD completion event for process 11 at time 8617 ms.
+Process 11 requests a core at time 8617 ms for 20 ms
+Process 11 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 11 requests a core at time 8618 ms for 20 ms
+Process 11 will release a core at time 8638 ms.
+CORE completion event for process 11 at time 8618 ms
+Process 11 terminates at time 8618 ms.
+Process Table:
+Process 3 is BLOCKED
+Process 11 is TERMINATED
+TTY completion event for process 3 at time 11931 ms.
+Relasing TTY with size 1
+Process 3 requests a core at time 11931 ms for 80 ms
+Process 3 must wait for a core.
+I Queue now contains 1 process(es) waiting for a core.
+Process 3 requests a core at time 11932 ms for 80 ms
+Process 3 will release a core at time 12012 ms.
+CORE completion event for process 3 at time 11932 ms
+Process 3 requests SSD access at time 11932 ms for 1 ms.
+Process 3 will release the SSD at time 11933 ms.
+SSD completion event for process 3 at time 11933 ms.
+Process 3 requests a core at time 11933 ms for 30 ms
+Process 3 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 3 requests a core at time 11934 ms for 30 ms
+Process 3 will release a core at time 11964 ms.
+CORE completion event for process 3 at time 11934 ms
+Process 3 requests SSD access at time 11934 ms for 0 ms.
+Process 3 will release the SSD at time 11934 ms.
+SSD completion event for process 3 at time 11934 ms.
+Process 3 requests a core at time 11934 ms for 90 ms
+Process 3 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 3 requests a core at time 11935 ms for 90 ms
+Process 3 will release a core at time 12025 ms.
+CORE completion event for process 3 at time 11935 ms
+Process 3 requests SSD access at time 11935 ms for 1 ms.
+Process 3 will release the SSD at time 11936 ms.
+SSD completion event for process 3 at time 11936 ms.
+Process 3 requests a core at time 11936 ms for 30 ms
+Process 3 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 3 requests a core at time 11937 ms for 30 ms
+Process 3 will release a core at time 11967 ms.
+CORE completion event for process 3 at time 11937 ms
+Process 3 requests SSD access at time 11937 ms for 1 ms.
+Process 3 will release the SSD at time 11938 ms.
+SSD completion event for process 3 at time 11938 ms.
+Process 3 requests a core at time 11938 ms for 20 ms
+Process 3 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 3 requests a core at time 11939 ms for 20 ms
+Process 3 will release a core at time 11959 ms.
+CORE completion event for process 3 at time 11939 ms
+Process 3 requests SSD access at time 11939 ms for 1 ms.
+Process 3 will release the SSD at time 11940 ms.
+SSD completion event for process 3 at time 11940 ms.
+Process 3 requests a core at time 11940 ms for 30 ms
+Process 3 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 3 requests a core at time 11941 ms for 30 ms
+Process 3 will release a core at time 11971 ms.
+CORE completion event for process 3 at time 11941 ms
+Process 3 requests SSD access at time 11941 ms for 1 ms.
+Process 3 will release the SSD at time 11942 ms.
+SSD completion event for process 3 at time 11942 ms.
+Process 3 requests a core at time 11942 ms for 20 ms
+Process 3 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 3 requests a core at time 11943 ms for 20 ms
+Process 3 will release a core at time 11963 ms.
+CORE completion event for process 3 at time 11943 ms
+Process 3 requests SSD access at time 11943 ms for 1 ms.
+Process 3 will release the SSD at time 11944 ms.
+SSD completion event for process 3 at time 11944 ms.
+Process 3 requests a core at time 11944 ms for 30 ms
+Process 3 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 3 requests a core at time 11945 ms for 30 ms
+Process 3 will release a core at time 11975 ms.
+CORE completion event for process 3 at time 11945 ms
+Process 3 requests SSD access at time 11945 ms for 1 ms.
+Process 3 will release the SSD at time 11946 ms.
+SSD completion event for process 3 at time 11946 ms.
+Process 3 requests a core at time 11946 ms for 20 ms
+Process 3 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 3 requests a core at time 11947 ms for 20 ms
+Process 3 will release a core at time 11967 ms.
+CORE completion event for process 3 at time 11947 ms
+Process 3 requests SSD access at time 11947 ms for 1 ms.
+Process 3 will release the SSD at time 11948 ms.
+SSD completion event for process 3 at time 11948 ms.
+Process 3 requests a core at time 11948 ms for 30 ms
+Process 3 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 3 requests a core at time 11949 ms for 30 ms
+Process 3 will release a core at time 11979 ms.
+CORE completion event for process 3 at time 11949 ms
+Process 3 requests SSD access at time 11949 ms for 1 ms.
+Process 3 will release the SSD at time 11950 ms.
+SSD completion event for process 3 at time 11950 ms.
+Process 3 requests a core at time 11950 ms for 20 ms
+Process 3 must wait for a core.
+NI Queue now contains 1 process(es) waiting for a core.
+Process 3 requests a core at time 11951 ms for 20 ms
+Process 3 will release a core at time 11971 ms.
+CORE completion event for process 3 at time 11951 ms
+Process 3 terminates at time 11951 ms.
+Process Table:
+Process 3 is TERMINATED
+SUMMARY:
+Total elapsed time: 11951 ms
+Number of processes that completed: 5
+Total number of SSD accesses: 90
+Average number of busy cores: 0.7
+SSD utilization: 0.00753
