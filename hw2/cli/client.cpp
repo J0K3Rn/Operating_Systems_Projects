@@ -1,5 +1,4 @@
-/* Joseph Keegan Richardson
- * 1678875
+/* 
  * COSC3360 Mon/Wed 4-5:30
  * Due: 04/01/2020
 */
